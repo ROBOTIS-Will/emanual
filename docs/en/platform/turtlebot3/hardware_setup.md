@@ -41,7 +41,7 @@ TurtleBot3 has three different models: `Burger`, `Waffle` and `Waffle Pi`. The f
 | **Motors**             | DYNAMIXEL (XL430-W250-T)        | 2      | 0      | 0         |
 | .                      | DYNAMIXEL (XM430-W210-T)        | 0      | 2      | 2         |
 | **Boards**             | OpenCR1.0                       | 1      | 1      | 1         |
-| .                      | Raspberry Pi 3                  | 1      | 0      | 1         |
+| .                      | Raspberry Pi                    | 1      | 0      | 1         |
 | .                      | Intel® Joule™                   | 0      | 1      | 0         |
 | .                      | USB2LDS                         | 1      | 1      | 1         |
 | **Remote Controllers** | BT-410 Set (Bluetooth 4, BLE)   | 0      | 0      | 1         |
@@ -50,7 +50,7 @@ TurtleBot3 has three different models: `Burger`, `Waffle` and `Waffle Pi`. The f
 | .                      | Intel® Realsense™ R200          | 0      | 1      | 0         |
 | .                      | Raspberry Pi Camera Module v2.1 | 0      | 0      | 1         |
 | **Memorys**            | MicroSD Card                    | 1      | 0      | 1         |
-| **Cables**             | Raspberry Pi 3 Power Cable      | 1      | 0      | 1         |
+| **Cables**             | Raspberry Pi Power Cable        | 1      | 0      | 1         |
 | .                      | Intel® Joule™ Power Cable       | 0      | 1      | 0         |
 | .                      | Li-Po Battery Extension Cable   | 1      | 1      | 1         |
 | .                      | DYNAMIXEL to OpenCR Cable       | 2      | 2      | 2         |

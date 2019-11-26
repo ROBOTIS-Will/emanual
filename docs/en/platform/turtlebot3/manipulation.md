@@ -48,7 +48,7 @@ The OpenMANIPULATOR has the advantage of being compatible with TurtleBot3 Waffle
 
 ## [Software Setup](#software-setup)
 
-**NOTE**: Before you install `open_manipulator_with_tb3` packages, please make sure `turtlebot3` and `open_manipulator` packages have been installed previously in RemotePC and setup [Raspberry Pi 3](/docs/en/platform/turtlebot3/raspberry_pi_3_setup/#raspberry-pi-3-setup).
+**NOTE**: Before you install `open_manipulator_with_tb3` packages, please make sure `turtlebot3` and `open_manipulator` packages have been installed previously in RemotePC and setup [Raspberry Pi 4](/docs/en/platform/turtlebot3/raspberry_pi_4_setup/#raspberry-pi-4-setup) or [Raspberry Pi 3](/docs/en/platform/turtlebot3/raspberry_pi_3_setup/#raspberry-pi-3-setup).
 {: .notice--info}
 
 - Install dependent packages for the OpenMANIPULATOR with TurtleBot3.

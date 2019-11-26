@@ -26,13 +26,14 @@ page_number: 13
 
 ### [Computer](#computer)
 
-- TurtleBot3's main computer is `Raspberry Pi 3` (TurtleBot3 Burger and Waffle Pi) and `Intel Joule 570x` (TurtleBot3 Waffle). These SBCs (Single Board Computer) are enough to use the basic features of TurtleBot3, but users need to increase CPU performance, use GPU, or add RAM size for other purposes. This section describes how to replace the SBC.
+- TurtleBot3's main computer is `Raspberry Pi 4` or `Raspberry Pi 3` (TurtleBot3 Burger and Waffle Pi) and `Intel Joule 570x` (TurtleBot3 Waffle). These SBCs (Single Board Computer) are enough to use the basic features of TurtleBot3, but users need to increase CPU performance, use GPU, or add RAM size for other purposes. This section describes how to replace the SBC.
 
 - There are various types of SBC as shown in the following figure. The specification of each SBC is different. But if you can install Linux and ROS on the SBC you want to use, you can use that SBC as the main computer for TurtleBot3. In addition to SBC, [Intel NUC][intel_nuc], mini PC and small notebooks are available.
 
 ![](/assets/images/platform/turtlebot3/setup/sbcs.png)
 
 - The TurtleBot3 development team has tested several SBCs. Here is a list of SBCs we tested:
+  - [Raspberry Pi 4][raspberry_pi_4]
   - [Raspberry Pi 3][raspberry_pi_3]
   - [Intel Joule 570x][intel_joule_570x]
   - [DragonBoard 410c][dragonboard_410c]
@@ -79,6 +80,7 @@ page_number: 13
 
 
 [raspberry_pi_3]: https://www.raspberrypi.org/products/
+[raspberry_pi_4]: https://www.raspberrypi.org/products/
 [intel_joule_570x]: https://ark.intel.com/products/96414/Intel-Joule-570x-Developer-Kit
 [dragonboard_410c]: https://developer.qualcomm.com/hardware/dragonboard-410c
 [nvidia_Jetson_tx2]: https://developer.nvidia.com/embedded/buy/jetson-tx2-devkit

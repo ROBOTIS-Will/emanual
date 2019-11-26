@@ -54,7 +54,7 @@ We provide the Linux distro image based on Raspbian. They are pre-installed with
 
 ##### Remote PC
 - Download the Linux distro image based on Raspbian for TurtleBot3
-  - [download link](http://www.robotis.com/service/download.php?no=1738)
+  - [download link](http://www.robotis.com/service/download.php?no=new_address_for_raspberry_pi_4)
   - SHA256: 2ec261a23546c191deede49bba91aeeb385d28e743fcb3eb7d1f837ff25079a3
 - After download, unzip the downloaded file.
 - Guide to burn the image to SD card
@@ -124,5 +124,5 @@ We provide the Linux distro image based on Raspbian. They are pre-installed with
 
 [appendix_raspi_cam]: /docs/en/platform/turtlebot3/appendix_raspi_cam/#raspberry-pi-camera
 [pc_network_configuration]: /docs/en/platform/turtlebot3/pc_setup/#network-configuration
-[network_configuration]: #5-network-configuration
+[network_configuration]: /docs/en/platform/turtlebot3/raspberry_pi_3_setup/#5-network-configuration
 [enable_ssh_server_in_raspberry_pi]: /docs/en/platform/turtlebot3/faq/#enable-ssh-server-in-raspberry-pi
