@@ -25,8 +25,23 @@ page_number: 8
 **WARNING**: Setup work requires Power and Time. So battery is not suitable. We recommend using SMPS (AC adapter) during this work.
 {: .notice--warning}
 
-**NOTE**: We are offering three models of TurtleBot3. TurtleBot3 Burger and Waffle Pi use Raspberry Pi 3 B and B+, and TurtleBot3 Waffle uses Intel Joule 570x. Choose from the following pages according to the SBC used in your model.
+**NOTE**: We are offering three models of TurtleBot3. TurtleBot3 Burger and Waffle Pi use Raspberry Pi 4 B, 3 B and B+, and TurtleBot3 Waffle uses Intel Joule 570x. Choose from the following pages according to the SBC used in your model.
 {: .notice--info}
+
+### [Raspberry Pi 4](#raspberry-pi-4)
+
+{% capture info_01 %}
+**NOTE**: Use the following way to install Linux and ROS on Raspberry Pi 4
+- For Linux distro image installation based on Raspbian, read `Install Linux (Raspbian)` guide. You do not have to do additional installations as the distro image contains ROS and ROS packages related to TurtleBot3.  
+{% endcapture %}
+<div class="notice--info">{{ info_01 | markdownify }}</div>
+
+{% capture info_02 %}
+**NOTE**: Raspberry Pi 4 B is available in TurtleBot3 Burger and Waffle Pi. If you use Raspberry Pi 4 B, please refer to the following.
+{% endcapture %}
+<div class="notice--info">{{ info_02 | markdownify }}</div>
+
+  1. [Install Linux (Raspbian)][install_linux_based_on_raspbian4]
 
 ### [Raspberry Pi 3](#raspberry-pi-3)
 
@@ -55,4 +70,5 @@ page_number: 8
 
 [install_linux_ubuntu_mate]: /docs/en/platform/turtlebot3/raspberry_pi_3_setup/#install-linux-ubuntu-mate
 [install_linux_based_on_raspbian]: /docs/en/platform/turtlebot3/raspberry_pi_3_setup/#install-linux-based-on-raspbian
+[install_linux_based_on_raspbian4]: /docs/en/platform/turtlebot3/raspberry_pi_4_setup/#install-linux-based-on-raspbian
 [install_ubuntu]: /docs/en/platform/turtlebot3/joule_setup/#install-linux-ubuntu

@@ -39,7 +39,7 @@ page_number: 11
 
 #### [(Recommended) Shell Script](#recommended-shell-script)
   
-This instruction was tested on `Ubuntu 16.04`, `Ubuntu Mate`, `Linux Mint` and `Raspbian`. You can use the following command after connecting OpenCR to remote PC (your desktop or laptop PC) or connect OpenCR to your TurtleBot PC (`Intel® Joule™`, `Raspberry Pi 3`) and execute the following command.
+This instruction was tested on `Ubuntu 16.04`, `Ubuntu Mate`, `Linux Mint` and `Raspbian`. You can use the following command after connecting OpenCR to remote PC (your desktop or laptop PC) or connect OpenCR to your TurtleBot PC (`Intel® Joule™`, `Raspberry Pi 3`, `Raspberry Pi 4`) and execute the following command.
 
 - TurtleBot3 Burger
 
