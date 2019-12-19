@@ -106,7 +106,7 @@ We provide the Linux distro image based on Raspbian. They are pre-installed with
   ```
 
 {% capture notice_03 %}
-**NOTE**: **Differences from the official Raspbian Stretch**
+**NOTE**: **Differences from the official Raspbian Buster**
 - It based on [Raspbian Buster with desktop](https://www.raspberrypi.org/downloads/raspbian/), the Raspbian based on Debian Buster
 - Enabled SSH and Camera function using raspi-config
 - Change the password: **turtlebot**

@@ -80,7 +80,7 @@ page_number: 4
 - [Raspberry Pi 3 Model B+](https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/)
   - TurtleBot3 Burger, Waffle Pi (Applied from products shipped in 2019)
 - [Raspberry Pi 4 Model B](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/)
-  - TurtleBot3 Burger, Waffle Pi (Applied from products shipped in Late 2019)
+  - TurtleBot3 Burger, Waffle Pi (Applied from products shipped in 2020)
 - [Intel® Joule™ 570x](http://ark.intel.com/products/96414/Intel-Joule-570x-Developer-Kit)
   - TurtleBot3 Waffle
 
