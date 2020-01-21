@@ -22,26 +22,28 @@ page_number: 8
 
 ## [SBC Setup](#sbc-setup)
 
-**WARNING**: Setup work requires Power and Time. So battery is not suitable. We recommend using SMPS (AC adapter) during this work.
-{: .notice--warning}
+TurtleBot3 has 3 different types of model (Burger, Waffle, Waffle Pi). Burger and Waffle Pi is compatible with Raspberry Pi Series (4B, 3B, and B+). Waffle is compatible with Intel Joule 570x.
 
-**NOTE**: We are offering three models of TurtleBot3. TurtleBot3 Burger and Waffle Pi use Raspberry Pi 4 B, 3 B and B+, and TurtleBot3 Waffle uses Intel Joule 570x. Choose from the following pages according to the SBC used in your model.
+See, the table to veryfy the Compatibility if your Single Board Computer (SBC) supports your own TurtleBot3.
+
+|       Type of SBC        | Burger | Waffle Pi | Waffle |
+|:------------------------:|:------:|:---------:|:------:|
+|  Raspberry Pi 4 Model B  |   O    |     O     |   X    |
+|  Raspberry Pi 3 Model B  |   O    |     O     |   X    |
+| Raspberry Pi 3 Model B + |   O    |     O     |   X    |
+|     Intel Joule 570x     |   X    |     X     |   O    |
+
+> SBC Compatibility Table with TurtleBot3. 
+
+**NOTE**: Using SMPS (AC adapter) is recommended to supply Raspberry Pi with sufficient electrical power.
 {: .notice--info}
 
 ### [Raspberry Pi 4](#raspberry-pi-4)
 
-{% capture info_01 %}
-**NOTE**: Use the following way to install Linux and ROS on Raspberry Pi 4
-- For Linux distro image installation based on Raspbian, read `Install Linux (Raspbian)` guide. You do not have to do additional installations as the distro image contains ROS and ROS packages related to TurtleBot3.  
-{% endcapture %}
-<div class="notice--info">{{ info_01 | markdownify }}</div>
-
-{% capture info_02 %}
-**NOTE**: Raspberry Pi 4 B is available in TurtleBot3 Burger and Waffle Pi. If you use Raspberry Pi 4 B, please refer to the following.
-{% endcapture %}
-<div class="notice--info">{{ info_02 | markdownify }}</div>
-
-  1. [Install Linux (Raspbian)][install_linux_based_on_raspbian4]
+Raspberry Pi 4 Model B is compatible with TurtleBot3 Burger and Waffle Pi. If you use Raspberry Pi 4 Model B, refer to `Install Linux (Raspbian)` guide.
+- [Intall Linux (Raspbian)](/docs/en/platform/turtlebot3/raspberry_pi_4_setup/).
+  - The provided distro image in this manual contains ROS and dependent ROS packages. Therefore, you don’t need to install additional ROS packages of TurtleBot3.
+  - See [What is the difference between the Linux distro image provided by ROBOTIS and Raspbian Buster?](/docs/en/platform/turtlebot3/faq/#what-is-the-difference-between-the-linux-distro-image-provided-by-robotis-and-raspbian-buster)  
 
 ### [Raspberry Pi 3](#raspberry-pi-3)
 

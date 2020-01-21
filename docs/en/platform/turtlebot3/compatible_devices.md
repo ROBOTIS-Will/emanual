@@ -78,7 +78,6 @@ page_number: 13
 
 - If you are using an analog sensor connected to the embedded board, you can use it with OpenCR. If you need to use an analog sensor other than USB or Ethernet communication, refer to [Additional Sensors][additional_sensors] page. 
 
-
 [raspberry_pi_3]: https://www.raspberrypi.org/products/
 [raspberry_pi_4]: https://www.raspberrypi.org/products/
 [intel_joule_570x]: https://ark.intel.com/products/96414/Intel-Joule-570x-Developer-Kit

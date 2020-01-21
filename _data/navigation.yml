@@ -15686,6 +15686,8 @@ turtlebot3:
     - title: "SBC Setup"
       url: /platform/turtlebot3/sbc_setup/#sbc-setup
       children:
+      - title: "Raspberry Pi 4"
+        url: /platform/turtlebot3/raspberry_pi_4_setup/#raspberry_pi_4_setup
       - title: "Raspberry Pi 3"
         url: /platform/turtlebot3/raspberry_pi_3_setup/#raspberry-pi-3-setup
       - title: "Intel Joule 570x"

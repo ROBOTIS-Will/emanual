@@ -11,9 +11,6 @@ sidebar:
   nav: "faq"
 ---
 
-
-
-
 # [Product Compatibility Guide](/docs/en/parts/controller/controller_compatibility/)
 
 # [Download Task Code](/docs/en/faq/download_task_code/)
@@ -21,8 +18,6 @@ sidebar:
 # [Task Rule Check](/docs/en/software/rplus1/task/task_misc/#rule-check)
 
 # [CM 510/530 Fuse Replacement](/docs/en/faq/cm_510_530_fuse/)
-
-
 
 # How the X-series can communicate with dynamixel with protocol 1.0?
 
@@ -132,6 +127,6 @@ Please refer to [the page.](http://en.robotis.com/model/board.php?bo_table=robot
   ![](/assets/images/faq/OS_X_fail/osx_all_app_allowance.png)
 
 
-[Dynamixel SDK]: /docs/en/software/dynamixel/dynamixel_sdk/overview/
+[DYNAMIXEL SDK]: /docs/en/software/dynamixel/dynamixel_sdk/overview/
 [Protocol 1.0]: /docs/en/dxl/protocol1/
 [Protocol 2.0]: /docs/en/dxl/protocol2/

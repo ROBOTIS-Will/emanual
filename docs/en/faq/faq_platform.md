@@ -22,8 +22,6 @@ sidebar:
 ## **Where can I purchase grippers?**
  You can consider [Seed Robotics]{: .blank} or [SAKE Robotics grippers]{: .blank}
 
-
-
 # [Manipulator](#manipulator)
 
 ## **Is Manipulator-L available?**

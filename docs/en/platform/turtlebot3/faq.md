@@ -26,6 +26,8 @@ page_number: 49
 7. [**Intel® Joule™** Freezes while Booting/Installation](#intel-joule-freezes-while-bootinginstallation)
 8. [How to **Update Software**](#how-to-update-software)
 9. [How to **Update Firmware**](#how-to-update-firmware)
+10. [How to burn an image file?](#how-to-burn-an-image-file)
+11. [What is the difference between the Linux distro image provided by ROBOTIS and Raspbian Buster?](#what-is-the-difference-between-the-linux-distro-image-provided-by-robotis-and-raspbian-buster)
 
 ---
 
@@ -228,3 +230,36 @@ $ export OPENCR_MODEL=waffle
 $ rm -rf ./opencr_update.tar.bz2
 $ wget https://github.com/ROBOTIS-GIT/OpenCR/raw/master/arduino/opencr_release/shell_update/opencr_update.tar.bz2 && tar -xvf opencr_update.tar.bz2 && cd ./opencr_update && ./update.sh $OPENCR_PORT $OPENCR_MODEL.opencr && cd ..
 ```
+
+## [How to burn an image file?](#how-to-burn-an-image-file)
+
+If you have TurtleBot3, you need to burn an image file (such as Raspbian) into a SD card. There is a variety of ways to burn the image file into the SD card.  
+
+**Etcher**, which is compatible with all OS (Windows, Linux, macOS), is a simple tool to burn the image file.
+
+Visit in [etcher.io](https://etcher.io/), and follow the provided tutorial to burn the image to your SD card. 
+
+{% capture info_02 %}
+**NOTE**: If you can not use Etcher, use another tool depending on your preference. 
+1. Use **dd** command in Linux. 
+  - [Using the Linux Command Line](https://elinux.org/RPi_Easy_SD_Card_Setup#Using_the_Linux_command_line)
+2. Use **win32 Disk Imager** in Windows. 
+  - [Using the Win32DiskImager program](https://elinux.org/RPi_Easy_SD_Card_Setup#Using_the_Win32DiskImager_program)
+{% endcapture %}
+<div class="notice--info">{{ info_02 | markdownify }}</div> 
+
+## [What is the difference between the Linux distro image provided by ROBOTIS and Raspbian Buster?](#what-is-the-difference-between-the-linux-distro-image-provided-by-robotis-and-raspbian-buster)
+
+It is made based on [Raspbian Buster with desktop](https://www.raspberrypi.org/downloads/raspbian/), Raspbian based on Debian Buster.  
+- Enabled SSH and Camera function using raspi-config
+- New Password: **turtlebot**
+- Pre-installed software for ROS and TurtleBot3
+  - [ROS Melodic Morenia](http://wiki.ros.org/melodic) and dependency software
+  - [raspicam_node](https://github.com/UbiquityRobotics/raspicam_node) package for Raspberry Pi Camera
+  - [hls_lfcd_lds_driver](https://github.com/ROBOTIS-GIT/hls_lfcd_lds_driver) package for Laser Distance Sensor
+  - [turtlebot3](https://github.com/ROBOTIS-GIT/turtlebot3) and [turtlebot3_msgs](https://github.com/ROBOTIS-GIT/turtlebot3_msgs) packages for TutleBot3
+- Pre-installed ROS packages (129)
+
+**NOTE**: The pre-installed ROS packages in the distro image is as follow:   
+ actionlib, actionlib_msgs, angles, bond, bond_core, bondcpp, bondpy, camera_calibration_parsers, camera_info_manager, catkin, class_loader, cmake_modules, common_msgs, compressed_image_transport, control_msgs, cpp_common, cv_bridge, diagnostic_aggregator, diagnostic_analysis, diagnostic_common_diagnostics, diagnostic_msgs, diagnostic_updater, diagnostics, dynamic_reconfigure, eigen_conversions, executive_smach, filters, gencpp, geneus, genlisp, genmsg, gennodejs, genpy, geometry, geometry_msgs, hls_lfcd_lds_driver, image_transport, joint_state_publisher, kdl_conversions, kdl_parser, kdl_parser_py, log, message_filters, message_generation, message_runtime, mk, nav_msgs, nodelet, nodelet_core, nodelet_topic_tools, orocos_kdl, pluginlib, python_orocos_kdl, python_qt_binding, raspicam_node, robot, robot_state_publisher, ros, ros_base, ros_comm, ros_core, ros_environment, rosbag, rosbag_migration_rule, rosbag_storage, rosbash, rosboost_cfg, rosbuild, rosclean, rosconsole, rosconsole_bridge, roscpp, roscpp_core, roscpp_serialization, roscpp_traits, roscreate, rosgraph, rosgraph_msgs, roslang, roslaunch, roslib, roslint, roslisp, roslz4, rosmake, rosmaster, rosmsg, rosnode, rosout, rospack, rosparam, rospy, rosserial_msgs, rosserial_python, rosservice, rostest, rostime, rostopic, rosunit, roswtf, self_test, sensor_msgs, shape_msgs, smach, smach_msgs, smach_ros, smclib, std_msgs, std_srvs, stereo_msgs, test_results, tf, tf2, tf2_kdl, tf2_msgs, tf2_py, tf2_ros, tf_conversions, topic_tools, trajectory_msgs, turtlebot3, turtlebot3_bringup, turtlebot3_msgs, urdf, urdf_parser_plugin, urdfdom_py, visualization_msgs, xacro, xmlrpcpp  
+ {: .notice--info}
