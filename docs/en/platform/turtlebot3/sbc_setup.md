@@ -22,11 +22,13 @@ page_number: 8
 
 ## [SBC Setup](#sbc-setup)
 
-TurtleBot3 has 3 different types of model (Burger, Waffle, Waffle Pi). Burger and Waffle Pi is compatible with Raspberry Pi Series (4B, 3B, and B+). Waffle is compatible with Intel Joule 570x.
+TurtleBot3 has a single board computer (SBC) as a main computer to use ROS 1 (or ROS 2) and its packages. 
 
-See, the table to veryfy the Compatibility if your Single Board Computer (SBC) supports your own TurtleBot3.
+In order to use ROS and packages, you need to install particular Linux version (such as Ubuntu, Raspbian) and ROS into the SBC.  
 
-|       Type of SBC        | Burger | Waffle Pi | Waffle |
+See the SBC Compatibility Table to verify which SBC is compatible with your own TurtleBot3, and start a setup guide depending on a SBC you have and a model of TurtleBot3.  
+
+|          Model           | Burger | Waffle Pi | Waffle |
 |:------------------------:|:------:|:---------:|:------:|
 |  Raspberry Pi 4 Model B  |   O    |     O     |   X    |
 |  Raspberry Pi 3 Model B  |   O    |     O     |   X    |
@@ -48,17 +50,14 @@ Raspberry Pi 4 Model B is compatible with TurtleBot3 Burger and Waffle Pi. If yo
 ### [Raspberry Pi 3](#raspberry-pi-3)
 
 {% capture info_01 %}
-**NOTE**: Use either of 3 ways to install Linux and ROS on Raspberry Pi 3
+**NOTE**: Use either of ways to install Linux and ROS on Raspberry Pi 3.
 1. For Ubuntu Mate installation, read `Install Linux (Ubuntu MATE)` guide. Be sure to install ROS and dependency packages after installing the Linux images on SBC of TurtleBot. The instruction takes about 1 hour to install ROS and related packages for TurtleBot3.
 2. For Linux distro image installation based on Raspbian, read `Install Linux (Raspbian)` guide. You do not have to do additional installations as the distro image contains ROS and ROS packages related to TurtleBot3.  
 3. For webOS Robotics Platform, read `webOS Robotics Platform` guide. You do not need to compile packages on TurtleBot3. They will be cross-compiled using OpenEmbedded on a higher performance PC, Ubuntu 18.04 based and an image file created from them.
 {% endcapture %}
 <div class="notice--info">{{ info_01 | markdownify }}</div>
 
-{% capture info_02 %}
-**NOTE**: Raspberry Pi 3 B+ is available in TurtleBot3 Burger and Waffle Pi. If you use Raspberry Pi 3 B+, please refer to the following.
-{% endcapture %}
-<div class="notice--info">{{ info_02 | markdownify }}</div>
+Raspberry Pi 3 B+ is available in TurtleBot3 Burger and Waffle Pi. If you use Raspberry Pi 3 B+, please refer to the following.
 
   1. [Install Linux (Ubuntu MATE)][install_linux_ubuntu_mate]
 

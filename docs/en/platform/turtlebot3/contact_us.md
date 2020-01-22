@@ -10,7 +10,7 @@ sidebar:
   title: TurtleBot3
   nav: "turtlebot3"
 product_group: turtlebot3
-page_number: 50
+page_number: 51
 ---
 
 <div style="counter-reset: h1 33"></div>
@@ -20,7 +20,6 @@ page_number: 50
 ## [About Open Robotics](#about-open-robotics)
 
 ![](/assets/images/platform/turtlebot3/logo_openrobotics.png)
-
 
 [Open Robotics](https://www.openrobotics.org/) is an independent non-profit organization founded by members of the global robotics community. The mission of Open Robotics is to support the development, distribution, and adoption of open source software for use in robotics research, education, and product development.
 

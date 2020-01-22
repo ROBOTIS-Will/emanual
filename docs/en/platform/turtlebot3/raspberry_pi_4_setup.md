@@ -20,9 +20,7 @@ page_number: 9
 ### [Raspberry Pi 4 Setup](#raspberry_pi_4_setup)
 
 {% capture info_01 %}
-**NOTE**: Keep the following before use this manual.
-- Using SMPS (AC adapter) is recommended to supply Raspberry Pi 4 with sufficient electrical power. <!-- // 충분한 전원공급을 위해서, AC 어댑터를 이용해라 > 내용이 필수적으로 들어가야하나요?  -->
-- Raspberry Pi 4 Model B is available in TurtleBot3 Burger and Waffle Pi. If you use Raspberry Pi 4 Model B, please refer to the following. <!-- // 라즈베리 파이 모델 B는 터틀봇 버거와 와플파이에 사용된다 > 와플에서 사용할수는 없나요? -->
+**NOTE**: Using SMPS (AC adapter) is recommended to supply Raspberry Pi 4 with sufficient electrical power. <!-- // 충분한 전원공급을 위해서, AC 어댑터를 이용해라 > 내용이 필수적으로 들어가야하나요?  -->
 {% endcapture %}
 <div class="notice--info">{{ info_01 | markdownify }}</div>
 
@@ -56,8 +54,8 @@ First, you need to download a distro image, which is made based on Raspbian Bust
 
 {% capture info_02 %}
 **WARNING** : Be sure to keep the following to set up TurtleBot3 PC properly.
-- Be sure to read [Download a Linux distro image on your PC](#download-a-linux-distro-image-on-your-pc) before setting up TurtleBot3 PC.
-- Connect peripheral device (such as, a computer monitor, keyboard, and mouse) with TurtleBot3 PC and use them to set up TurtleBot3 PC.
+- Be sure to read [Download a Linux distro image on your PC](#download-a-linux-distro-image-on-your-pc) before you start the following instruction.
+- Connect peripheral devices (such as, a computer monitor, keyboard, and mouse) with TurtleBot3 PC to start the process.
 - Do not apply this instruction to Remote PC. **Use SBC** (TurtleBot3 PC.)
 {% endcapture %}
 <div class="notice--warning">{{ info_02 | markdownify }}</div>
@@ -113,7 +111,7 @@ https://www.raspberrypi.org/documentation/configuration/raspi-config.md#change-t
   
 #### [Connect to Raspberry Pi 4 via SSH](#connect-to-raspberry-pi-4-via-ssh)
 
-**WARNING**: Be sure to read [Set up TurtleBot3 PC](#set-up-turtlebot3-pc) before connecting Remote PC with TurtleBot3 PC. 
+**WARNING**: Be sure to read [Set up TurtleBot3 PC](#set-up-turtlebot3-pc) before you start the following instruction.
 {: .notice--warning}
 
 **[Remote PC]**
