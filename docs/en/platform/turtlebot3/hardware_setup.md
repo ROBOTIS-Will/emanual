@@ -83,11 +83,18 @@ TurtleBot3 has three different models: `Burger`, `Waffle` and `Waffle Pi`. The f
 
 ### [Assembly Manual](#assembly-manual)
 
-TurtleBots3 is delivered as unassembled parts in the boxes. Follow the instructions to assemble TurtleBot3.
+Assemble the TurtleBot3 following the Assembly Manual.  
+ 
+For the TurtleBot3 with **Raspberry Pi 4 Model B**
+- `Download PDF` [Assembly manual for TurtleBot3 Burger](https://www.robotis.com/service/download.php?no=1907)
+- `Download PDF` [Assembly manual for TurtleBot3 Waffle Pi](https://www.robotis.com/service/download.php?no=1906)
 
+For the TurtleBot3 with **Raspberry Pi 3 Model B (or B+)**
 - `Download PDF` [Assembly manual for TurtleBot3 Burger](http://www.robotis.com/service/download.php?no=748)
-- `Download PDF` [Assembly manual for TurtleBot3 Waffle](http://www.robotis.com/service/download.php?no=749)
 - `Download PDF` [Assembly manual for TurtleBot3 Waffle Pi](http://www.robotis.com/service/download.php?no=750)
+
+For the TurtleBot3 with **Intel Joule 570x**
+- `Download PDF` [Assembly manual for TurtleBot3 Waffle](http://www.robotis.com/service/download.php?no=749)
 
 ### [Assembly Video](#assembly-video)
 

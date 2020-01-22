@@ -39,7 +39,7 @@ First, you need to download a distro image, which is made based on Raspbian Bust
 **[Remote PC]**
 
 1. Download a zipped file. 
-  - [Download](http://www.robotis.com/service/download.php?no=new_address_for_raspberry_pi_4)
+  - [Download](https://www.robotis.com/service/download.php?no=1905)
   - SHA256: 2ec261a23546c191deede49bba91aeeb385d28e743fcb3eb7d1f837ff25079a3
 2. Extract the image from the zipped file. 
 3. Burn the image to the SD card.
